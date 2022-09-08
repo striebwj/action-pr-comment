@@ -3,7 +3,7 @@ name: on-pr-comment
 on:
   pull_request:
   issue_comment:
-    types: [created]
+    types: [created] #test
   workflow_dispatch:
 
 jobs:
